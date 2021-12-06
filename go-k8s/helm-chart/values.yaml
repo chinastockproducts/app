@@ -11,8 +11,8 @@ image:
 service:
   name: go-app
   type: LoadBalancer
-  externalPort: 3095
-  internalPort: 3095
+  externalPort: 3000
+  internalPort: 3000
 
 resources:
   limits:
